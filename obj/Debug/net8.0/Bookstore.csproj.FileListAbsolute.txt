@@ -30,3 +30,4 @@ C:\git\Bookstore\obj\Debug\net8.0\refint\Bookstore.dll
 C:\git\Bookstore\obj\Debug\net8.0\Bookstore.pdb
 C:\git\Bookstore\obj\Debug\net8.0\Bookstore.genruntimeconfig.cache
 C:\git\Bookstore\obj\Debug\net8.0\ref\Bookstore.dll
+C:\git\BookStore\obj\Debug\net8.0\BookStore.sourcelink.json

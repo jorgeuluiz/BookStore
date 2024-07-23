@@ -1,3 +1,5 @@
+using BookStore;
+
 namespace Bookstore;
 
 public class Book
@@ -12,16 +14,5 @@ public class Book
 
     public int QuantityInStock { get; set; }
 
-    public Gender Genre { get; set; }
-}
-
-public enum Gender
-{
-    Romance,
-    Fantasy,
-    Mystery,
-    ScienceFiction,
-    Thriller,
-    HistoricalFiction,
-    NonFiction
+    public BookType Type { get; set; }
 }

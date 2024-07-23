@@ -1,4 +1,6 @@
-﻿namespace Bookstore.Communication.Requests;
+﻿using BookStore;
+
+namespace Bookstore.Communication.Requests;
 
 public class RequestRegisterBookJson
 {    
@@ -6,5 +8,5 @@ public class RequestRegisterBookJson
     public string Author { get; set; } = string.Empty;
     public double Price { get; set; }
     public int QuantityInStock { get; set; }
-    public Gender Genre { get; set; }
+    public BookType Type { get; set; }
 }
